@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container{
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+
+
+
+
+
+
+
+
+
+.zero {
+  background-color: rgb(33, 33, 33);
+}
+
+.zero ul li h1 {
+  font-size: 10vh;
+  color: rgb(208, 208, 208);
+  text-shadow: 0.5vh 0.5vh 2vh black;
+}
+
+.zero ul {
+  list-style-type: none
+}
+
+.zero p {
+  margin-top: 3vh;
+  font-size: 2.3vh;
+  color: #a3a3a3;
+}
+
+.nuber2 {
+  margin-bottom: 25vh;
+}
+
+.nuber2 img {
+  width: 12vh;
+}
+
+.uberlogoone img {
+  margin-top: 10vh;
+  width: 25vh;
+}
+
+
+.BelalUberTitlePage {
+  text-align: center;
+}
+
+
+
+
+
+.point5 {
+  background-color: rgb(255, 255, 255);
+}
+
+.point5 p {
+  font-size: 3.5vh;
+  float: right;
+}
+
+.pointimg img {
+  width: 2vh;
+  float: left;
+  margin-top: 0.8vh;
+  margin-right: 2vh;
+}
+
+.pointimg2 img {
+  width: 2.5vh;
+  float: left;
+  margin-top: 1.4vh;
+  margin-right: 2vh;
+}
+
+.pointimg3 img {
+  width: 2.3vh;
+  float: left;
+  margin-top: 1.6vh;
+  margin-right: 2vh;
+}
+
+.pointimg {
+  margin-top: 10vh;
+  
+}
+
+.pointimg2 {
+  margin-top: 20vh;
+}
+
+.pointimg3 {
+  margin-top: 20vh;
+}
+
+.point5 h3 {
+  font-size: 4vh;
+  text-align: center;
+  color: #383838;
+}
+
+.point5 ul {
+  margin-bottom: 30vh;
+}
+
+.abtme1 {
+  margin-top: 20vh;
+  list-style-type: none
+}
+
+
+
+
+
+
+
+.one{
+  background-color: rgb(33, 33, 33);
+
+}
+
+.one div {
+  margin-top: 7vh;
+}
+
+
+.one h1{
+  margin-top: 10vh;
+  position: absolute;
+}
+
+.one ul {
+  text-align: center;
+  margin-bottom: 10vh;
+  list-style-type: none
+}
+
+.one h2{
+  color: white;
+  font-size: 6vh;
+  text-shadow: 1px 1px 4px black;
+}
+
+.one p{
+  color: rgb(186, 186, 186);
+  font-size: 4vh;
+  text-shadow: 1px 1px 4px black;
+}
+
+.one h3 {
+  font-size: 4vh;
+  color: rgba(255, 255, 255, 0.232);
+}
+
+
+
+
+
+.two{
+  background-color: rgb(255, 255, 255);
+}
+
+.two div {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  border-radius: 2vh;
+  width: 30vh;
+}
+
+.diver1 {
+  background-color: rgba(255, 255, 255, 0);
+  height: 25vh;
+  border: 0.5vh solid;
+  border-color: rgba(0, 0, 0, 0.049);
+}
+
+.diver1 h3 {
+  margin-left: 3.5vh;
+}
+
+.two h3 {
+  font-size: 3vh;
+  margin-top: 1vh;
+  margin-left: 2.5vh;
+}
+
+.two img {
+  width: 15vh;
+  margin-left: 7vh;
+  margin-top: 2vh;
+}
+
+.two ul {
+  list-style-type: none
+}
+
+.diver2 {
+  background-color: rgba(255, 255, 255, 0);
+  height: 25vh;
+  border: 0.5vh solid;
+  border-color: rgba(0, 0, 0, 0.049);
+}
+
+.diver3{
+  background-color: rgba(255, 255, 255, 0);
+  height: 25vh;
+  border: 0.5vh solid;
+  border-color: rgba(0, 0, 0, 0.049);
+}
+
+.exceptionTwo {
+  height: 8vh;
+  width: 40vh;
+}
+
+.exceptionTwo h2 {
+  font-size: 4vh;
+  text-align: center;
+  color: #2f2f2f;
+}
+
+
+
+
+
+
+
+
+.three{
+  background-color: rgb(33, 33, 33);
+}
+
+.three h1 {
+  color: rgb(255, 255, 255);
+  font-size: 5vh;
+  text-align: center;
+}
+
+
+
+
+
+.four{
+  background-color: rgb(33, 33, 33);
+}
+
+
+.img2 {
+  width: 5vh;
+  margin-left: 1vh;
+
+}
+
+.img3 {
+  width: 4.5vh;
+  margin-right: 2vh;
+
+}
+
+.four p {
+  font-size: 4.5vh;
+  margin-left: 6vh;
+  color: white;
+}
+
+
+
+
+
+.five{
+  background-color: rgb(255, 255, 255);
+}
+
+.five h1 {
+  color: rgb(0, 0, 0);
+  font-size: 5vh;
+  text-align: center;
+}
+
+
+
+
+
+.six p {
+  font-size: 5vh;
+  margin-left: 6vh;
+  color: rgb(0, 0, 0);
+}
+
+.six {
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+
+.seven h1 {
+  color: rgb(255, 255, 255);
+  font-size: 5vh;
+  text-align: center;
+}
+
+.seven {
+  background-color: rgb(33, 33, 33);
+}
+
+
+
+
+.eight {
+  background-color: rgb(33, 33, 33);
+}
+
+
+.eight p {
+  font-size: 4.6vh;
+  margin-left: 6vh;
+  color: white;
+}
+
+.blank {
+  width: 5vh;
+}
+
+
+
+
+
+.credits {
+  background-color: rgb(20, 20, 20);
+}
+
+.credits p {
+  color: rgb(116, 116, 116);
+  font-size: 3vh;
+  text-align: center;
+}
+
+.credits img {
+  width: 15vh;
+}
